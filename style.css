@@ -39,17 +39,10 @@ a:hover { color: var(--green-dark); }
   padding: 14px 24px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 16px;
   flex-wrap: wrap;
 }
-.site-title {
-  font-family: Georgia, serif;
-  font-size: 15pt;
-  color: #f9f9f9;
-  text-decoration: none;
-}
-.site-title:hover { color: rgba(249, 249, 249, 0.82); }
 .topbar nav { display: flex; gap: 20px; flex-wrap: wrap; }
 .topbar nav a {
   font-family: Georgia, serif;
@@ -96,6 +89,7 @@ p { margin: 8pt 0 0; }
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
+  margin-left: -24px; /* nudged slightly left */
 }
 
 /* Education / experience entries */
@@ -144,6 +138,6 @@ footer a:hover { color: rgba(249, 249, 249, 0.82); }
   h2 { font-size: 18pt; }
   main { padding: 32px 16px 48px; }
   .intro { flex-direction: column; align-items: flex-start; gap: 24px; }
-  .profile { width: 180px; height: 180px; }
+  .profile { width: 180px; height: 180px; margin-left: 0; }
   .topbar-inner, .footer-inner { padding-left: 16px; padding-right: 16px; }
 }
