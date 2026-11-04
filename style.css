@@ -76,6 +76,16 @@ h2 {
 
 p { margin: 8pt 0 0; }
 
+/* Sub-headings, e.g. First-Author / Co-Author Publications */
+h3 {
+  font-family: Georgia, serif;
+  font-size: 15pt;
+  font-weight: 700;
+  color: var(--green);
+  margin: 24px 0 10px;
+}
+h2 + h3 { margin-top: 8px; }
+
 .intro {
   display: flex;
   align-items: center;
