@@ -88,7 +88,7 @@ p { margin: 8pt 0 0; }
   height: 240px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: 100% center; /* face sits slightly left of center */
+  object-position: 89% center; /* centers the eyes horizontally */
 }
 
 /* Education / experience entries */
