@@ -95,7 +95,7 @@ p { margin: 8pt 0 0; }
   height: 240px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: 42% 30%;
+  object-position: center;
 }
 
 /* Education / experience entries */
